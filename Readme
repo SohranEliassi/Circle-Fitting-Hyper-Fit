@@ -22,8 +22,8 @@ As can be seen from our video example ("CircleFitVideoExample"), the Hyper fit a
 HOW TO USE THE CODE:
 VISUAL STUDIO:
   We have used visual studio 2013 and OpenCV version 2.4.13, download at (http://opencv.org/downloads.html)
-  install OpenCV following the guide below, it shows how to configure OpenCV 2.4.13 with visual studio 2010 (same for later versions)
-  1. You need to configure OpenCV with visual studio, here is a link showing how to do that: https://www.youtube.com/watch?v=KoJTIs-h-0g
+  install OpenCV following steps below, it shows how to configure OpenCV 2.4.13 with visual studio 2010 (same for later versions)
+  1. You need to configure OpenCV with visual studio, example: https://www.youtube.com/watch?v=KoJTIs-h-0g
   2. Create a new project in visual studio, add all the files (Cpp and Headerfiles) from our repository to the project 
   3. Link OpenCV libraries and additional dependencies (DLL:s) to the project, following the youtube-tutorial from step 1. 
   4. Compile and Run the application
