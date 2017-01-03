@@ -9,7 +9,7 @@ It is an algebraic fit, based on the journal article:
 The original algorithm fits a (known) set of data points (in 2D) to a circle.
 As a contribution to the original algorithm, we have added functions allowing circle fitting on complete and incomplete circular objects, in live-stream 2D-images.
 
-* THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTATION STEPS
+* THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTATION STEPS:
 Image acquisition-> Data points extraction, using Canny edge detection-> Gathering of data points, using allocated arrays
 -> Circle fitting onto data points-> Printing of the fit circles arc and radius value onto captured frames
 
