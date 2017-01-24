@@ -7,11 +7,11 @@ Electronic Journal of Statistics, Vol. 3, pages 886-911, (2009)
 
 THIS HYPER FIT ALGORITHM IS CONSIDERED TO BE ONE OF THE BEST (PERHAPS THE BEST) CIRCLE FITTING ALGORITHM, IN TERMS OF ACCURACY. IT IS ALSO RELATIVELY FAST.
 
-The original algorithm fits a (known) set of data points (in 2D) to a circle. 
+The original algorithm fits a set of known data points (in 2D) to a circle. 
 As a contribution to the original algorithm, we have added functions allowing circle fitting on complete and incomplete circular objects, in live-stream 2D-images.
 
-THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTATION STEPS:
-Image acquisition-> Data points extraction, using Canny edge detection-> Gathering of data points, using allocated arrays -> Circle fitting onto data points-> Printing of the fit circles arc and radius value onto captured frames
+THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTED BLOCK STEPS:
+Image acquisition-> Data points extraction, using Canny edge detection-> Gathering of data points-> Circle fitting onto data points-> Printing of the fit circle´s arc, and radius value, onto captured frames
 
 The algorithm is explained with comments in the "Source.cpp" file
 
