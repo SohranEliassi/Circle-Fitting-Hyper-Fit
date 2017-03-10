@@ -15,9 +15,9 @@ Image acquisition-> Data points extraction, using Canny edge detection-> Gatheri
 
 The algorithm is explained with comments in the "Source.cpp" file
 
-IN OUR REPOSITORY, WE HAVE A VIDEO FILE ("CircleFitVideoExample") SHOWING AN EXAMPLE WHERE WE HAVE FIT A CIRCLE TO 2 INCOMPLETE CIRCULAR ARCS, USING OUR CIRCLE FITTING ALGORITHM.
+IN OUR REPOSITORY, WE HAVE A VIDEO FILE, "Circle Fitting (True radius 2 meter).webm", SHOWING AN EXAMPLE WHERE WE HAVE FIT A CIRCLE TO A LARGELY INCOMPLETE CIRCULAR ARC, USING OUR CIRCLE FITTING ALGORITHM.
 
-As can be seen from our video example ("CircleFitVideoExample"), the Hyper fit algorithm can be implemented to fit accurate circles to largely incomplete circular arcs.
+As can be seen from our video example, the Hyper fit algorithm can be implemented to fit accurate circles to largely incomplete circular arcs.
 
 HOW TO USE THE CODE:
 VISUAL STUDIO:
