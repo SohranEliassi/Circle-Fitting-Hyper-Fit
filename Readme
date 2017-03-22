@@ -11,8 +11,7 @@ The original algorithm fits a set of known data points (in 2D) to a circle.
 * AS A CONTRIBUTION to the original algorithm, we have added functions allowing circle fitting on complete and incomplete circular objects, in live-stream 2D-images.
 
 THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTATION BLOCKS:
-(1) Image acquisition-> (2) Data points (Xi,Yi) extraction, using Canny edge detection-> (3) Gathering of data points->
-(4) Fitting data points to a circle-> (5) Printing the fit circle´s arc, and radius value, onto captured frames
+(1) Image acquisition-> (2) Data points (Xi,Yi) extraction, using Canny edge detection-> (3) Gathering of data points-> (4) Fitting data points to a circle-> (5) Printing the fit circle´s arc, and radius value, onto captured frames
 
 The algorithm is explained with comments in the "Source.cpp" file
 
