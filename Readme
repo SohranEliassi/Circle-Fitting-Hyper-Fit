@@ -15,7 +15,7 @@ THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTATION BLOCKS:
 
 The algorithm is explained with comments in the "Source.cpp" file
 
-IN OUR REPOSITORY, WE HAVE A VIDEO FILE, named "Circle Fitting (True radius 2 meter).webm", SHOWING AN EXAMPLE WHERE WE HAVE FIT A CIRCLE TO A LARGELY INCOMPLETE CIRCULAR ARC, USING OUR CIRCLE FITTING ALGORITHM.
+IN OUR REPOSITORY WE HAVE A VIDEO FILE, named "Circle Fitting (True radius 2 meter).webm", SHOWING AN EXAMPLE WHERE WE HAVE FIT A CIRCLE TO A LARGELY INCOMPLETE CIRCULAR ARC, USING OUR CIRCLE FITTING ALGORITHM.
 In the video file, the short arc length (17 cm) we have fit to a circle corresponds to approximately 5 degree of a complete circle´s circumference. With our non-professional camera setup, the algorithm fits a circle to the arc with an accuracy of approximately 99.5%, pretty impressive for such small angle!
 
 * As can be seen from our video example, the Hyper fit algorithm can be implemented to fit accurate circles to largely incomplete circular arcs.
