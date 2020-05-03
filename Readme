@@ -8,17 +8,19 @@ Electronic Journal of Statistics, Vol. 3, pages 886-911, (2009)
 THIS HYPER FIT ALGORITHM IS CONSIDERED TO BE ONE OF THE BEST (PERHAPS THE BEST) CIRCLE FITTING ALGORITHM, IN TERMS OF ACCURACY. IT IS ALSO RELATIVELY FAST.
 
 The original algorithm fits a set of known data points (in 2D) to a circle. 
-* AS A CONTRIBUTION to the original algorithm, we have added functions allowing circle fitting on complete and incomplete circular objects, in live-stream 2D-images.
+* As a contribution to the original algorithm, functions have been added to allow circle fitting on complete and incomplete circular objects, in live-stream 2D-images.
 
 THE REVISED ALGORITHM HAS THE FOLLOWING IMPLEMENTATION BLOCKS:
 (1) Image acquisition-> (2) Data points (Xi,Yi) extraction, using Canny edge detection-> (3) Gathering of data points-> (4) Fitting data points to a circle, using the circle fitting algorithm-> (5) Printing the fit circle´s arc, and radius value, onto captured frames
 
 The algorithm is explained with comments in the "Source.cpp" file
 
-IN OUR REPOSITORY WE HAVE A VIDEO FILE, named "Circle Fitting (True radius 2 meter).webm", SHOWING AN EXAMPLE WHERE WE HAVE FIT A CIRCLE TO A LARGELY INCOMPLETE CIRCULAR ARC, USING OUR CIRCLE FITTING ALGORITHM.
-In the video file, the short arc length (17 cm) we have fit to a circle corresponds to approximately 5 degree of a complete circle´s circumference. With our non-professional camera setup, the algorithm fits a circle to the arc with an accuracy of approximately 99.5%, pretty impressive for such small angle!
+In the repository, there is a videofile named "Circle Fitting (True radius 2 meter).webm", 
+showing an example where the circle fitting algorithm has been applied on a largely incomplete circular arc.
+In the video file, the short arc length (17 cm) corresponds to approximately 5 degree of a complete circle´s circumference. 
+With the used camera setup, a 5 mpx camera, the algorithm fits a circle to the arc with an accuracy of approximately 99.5%, which is impressive.
 
-* As can be seen from our video example, the Hyper fit algorithm can be implemented to fit accurate circles to largely incomplete circular arcs.
+* As can be noted and concluded is that the Hyper fit algorithm can be implemented to fit accurate circles to largely incomplete circular arcs.
 
 HOW TO USE THE CODE:
 VISUAL STUDIO:
@@ -29,6 +31,4 @@ VISUAL STUDIO:
   3. Link OpenCV libraries and additional dependencies (DLL:s) to the project, following the youtube-tutorial from step 1. 
   4. Compile and Run the application
 
-OTHER ENVIRONMENTS OR BUILDERS:
-  For other COMPILERS/BUILDERS, similar approach can be used.
-  If you need help, please contact me and I might be able to help: soel1300@student.miun.se
+Ofcourse, the project can be compiled with many other IDE´s or compilers, just make sure to link OpenCV libraries and other additional dependencies to the project files.
